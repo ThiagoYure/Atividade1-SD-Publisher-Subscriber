@@ -1,0 +1,23 @@
+{
+  "name": "atividade1-sd-publisher-subscriber",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Atividade 1 da disciplina de Sistemas Distribuidos para fazer um chat utilizando a estratégia Publisher Subscriber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoYure/Atividade1-SD-Publisher-Subscriber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoYure/Atividade1-SD-Publisher-Subscriber/issues"
+  },
+  "homepage": "https://github.com/ThiagoYure/Atividade1-SD-Publisher-Subscriber#readme",
+  "dependencies": {
+    "redis": "^4.0.0-rc.0"
+  }
+}
