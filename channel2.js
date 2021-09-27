@@ -19,9 +19,9 @@ import readline from "node:readline";
     }
 
     rl.question('Nome de Usuário: ', (answer) => {
-        subscriber.subscribe("redis-chat", handlerMessage);
+        subscriber.subscribe("channel-2", handlerMessage);
         rl.on('line', (msg) => {
-            publisher.publish("redis-chat", "] [<" + answer + ">] : < " + msg + " >");
+            publisher.publish("channel-2", "] [<" + answer + ">] : < " + msg + " >");
         });
     });
 })();
